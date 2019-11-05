@@ -18,6 +18,9 @@ h1 {
   padding: 0;
 }
 #navbar{width:1000px;height:30px;border:1px solid white;float:right;}
-#navbar>li{width:333px;list-style:none;float:right;}
+#navbar>li{width:250px;list-style:none;float:right;}
 li>a{display:list-item;color:LightGray;line-height:30px;text-align:left;font-family: Didot;}
 li>a:hover{border-style: inset; background:gray;color:inherit;}
+
+p
+{font-family: fantasy,"chalkduster","trattatello","jazz LET";font-size: 125%;color:gray}
