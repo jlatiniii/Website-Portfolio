@@ -6,7 +6,7 @@
 					<li><a href="Contact.html">Contact</a></li>
 					<li><a href="About.html">About the Artist</a></li>
 					<li><a href="Artwork.html">Artwork</a></li>
-					<li><a href="Nicolette-website.html">Home</a></li>
+					<li><a href="Index.html">Home</a></li>
 
 				</ul>
 			</div>
@@ -16,16 +16,47 @@
 		<meta charset="utf-8"/>
 <h1 style="color:LightGray;border:2px solid;">Nicolette Moore</h1>
 <body>
-	<center>
-	<a href="Nicolette-website.html"><img src="nicolette2.jpg" alt="This is Nicolette" width="400" height="275"></a>
-	</center>
 	<h2>Contact Information</h2>
-		<p class="p-welcome">Email:  nm26889n@pace.edu
-		</p>
+		<div class="container">
+  <form action="mailto:nm26889@pace.edu" method="post" enctype="text/plain">
 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+			<option value="usa">USA</option>
+      <option value="canada">Canada</option>
+			<option value="mexico">Mexico</option>
+			<option value="australia">Australia</option>
+      <option value="china">China</option>
+			<option value="hongkong">Hong Kong</option>
+			<option value="england">England</option>
+			<option value="france">France</option>
+			<option value="italy">Italy</option>
+			<option value="brazil">Brazil</option>
+			<option value="uae">United Arab Emirates
+			</option>
+    </select>
+
+		<label for="email">Email</label>
+		<input type="text" id="email" name="email" placeholder="Your email..">
+
+		<label for="subject">Subject</label>
+	 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <br>
+		<br>
+    <input type="submit" value="Submit">
+
+  </form>
+
+</div>
 
 </body>
-<br><br><br><br><br>
+<br>
 </html>
 
 
