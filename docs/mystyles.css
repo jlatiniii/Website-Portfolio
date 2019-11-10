@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+
+}
+h1 {
+  text-align: center;
+  color: LightGray;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 500%;
+  border: 2px solid LightGray;
+  padding: 30px;
+}
+h2 {
+  color: black;
+  font-family: URW Chancery L, cursive;
+  font-size: 150%
+  padding: 30px;
+  margin right: 15
+}
+img {
+  padding: 100 50px;
+  border: 5px solid black
+}
+
+.aboutimage {
+  align: left
+  margin : 0
+}
+#header {width:100%; height: 50px;text-align: left;
+  color: LightGray;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  display: inline-block;
+  margin right: 5;
+  padding: 0;
+}
+#navbar{width:1000px;height:30px;border:1px solid white;float:right;}
+#navbar a {
+  display: inline-block;
+  padding: 0 1em;
+}
+#navbar>li{width:250px;list-style:none;float:right;}
+li>a{display:list-item;color:LightGray;line-height:30px;text-align:left;font-family: Didot;}
+li a:hover{border-style: inset; background:#bb99ff;color:inherit;}
+
+p {
+  font-family: Courier New, monospace;
+  font-size: 125%;
+  color:gray;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+  grid-template-rows: repeat(2, minmax(100px, max-content));
+  grid-gap: 10 px;
+  margin: 0 auto;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  font-family: Courier New, monospace;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #bb99ff;
+  font-family: Courier New, monospace;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: LightGray;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-family: Courier New, monospace;
+  padding: 20px;
+}
